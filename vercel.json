@@ -1,0 +1,8 @@
+{
+  "rewrites":  [
+    {"source": "/about", "destination": "./src/components/About.tsx"},
+    {"source": "/services", "destination": "./src/components/Services.tsx"},
+    {"source": "/contact", "destination": "./src/components/Contact.tsx"},
+    {"source": "/(.*)", "destination": "/"}
+  ]
+}
